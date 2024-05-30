@@ -1,0 +1,40 @@
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 500;
+}
+
+.icon{
+    color: #ac9ed3;
+    font-size: 32px;
+}
+
+.top{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #046fee;
+    border-radius: 24px;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card:hover{
+    background-color: #ac9ed3;
+    color: black;
+    transition: background-color 0.3s ease-in;
+    box-shadow: 0px 0px 10px 0px #ac9ed3;
+    scale: 1.03;
+}
+
+.card:hover .icon{
+    color: #1e1e1e;
+}
